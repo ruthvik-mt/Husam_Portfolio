@@ -28,23 +28,23 @@ export const clientReviews = [
     position: 'Marketing Director at GreenLeaf',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with husam was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
+    name: 'Abdul Rahman',
     position: 'Founder of TechGear Shop',
     img: 'assets/review2.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Husam\'s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
+    name: 'John bradin',
     position: 'Project Manager at UrbanTech ',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I can’t say enough good things about Husam. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
   },
   {
     id: 4,
@@ -52,19 +52,19 @@ export const clientReviews = [
     position: 'CEO of BrightStar Enterprises',
     img: 'assets/review4.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Husam was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
   },
 ];
 
 export const myProjects = [
   {
-    title: 'Podcastr - AI Podcast Platform',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+    title: 'Speedline Auto parts',
+    desc: 'GearXpert is a modern ecommerce platform for auto parts built for performance and usability. It helps users quickly find parts for cars and trucks with a sleek, bold UI.',
     subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-    texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
+      'Developed with React.js, Tailwind CSS, and modern ecommerce best practices, GearXpert is designed for vehicle enthusiasts and sellers.',
+    href: 'https://speedlineautoparts.netlify.app/',
+    texture: '/textures/project/speedline.webp',
+    logo: '/assets/speedline-logo.png',
     logoStyle: {
       backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -82,30 +82,33 @@ export const myProjects = [
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
+     
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'gsap',
+        path: '/assets/gsap.png',
       },
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+    title: 'Tekisky Mart – Vendor-Based Marketplace',
+    desc: 'An advanced eCommerce system supporting multi-vendor capabilities and user dashboards.',
     subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
+      'Full-stack platform built using MERN stack with secure authentication and admin controls.',
+    href: 'https://tekiskymart.com/',
+    texture: '/textures/project/Tekiskymart.webp',
+    logo: '/assets/tekiskyMart-logo.png',
     logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      backgroundColor: '#60f5a1',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
     spotlight: '/assets/spotlight2.png',
     tags: [
@@ -121,104 +124,34 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Node.js',
+        path: '/assets/nodejs.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'express.js',
+        path: '/assets/express.png',
+      },
+      {
+        id: 5,
+        name: 'mongodb.js',
+        path: '/assets/mongodb.png',
       },
     ],
-  },
+  }
+  ,
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+    title: 'GoGroove – Trendy Online Store',
+    desc: 'A vibrant and engaging eCommerce website with smooth UX and powerful UI, perfect for digital retail.',
     subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
+      'Created using the MERN stack with responsive design and smooth animations.',
+    href: 'https://your-gogroove-link.com',
+    texture: '/textures/project/GoGroove.webp',
+    logo: '/assets/G.png',
     logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
-    spotlight: '/assets/spotlight3.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Horizon - Online Banking Platform',
-    desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
-    subdesc:
-      'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-    href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Imaginify - AI Photo Manipulation App',
-    desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-    subdesc:
-      'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-    href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-    texture: '/textures/project/project5.mp4',
-    logo: '/assets/project-logo5.png',
-    logoStyle: {
-      backgroundColor: '#1C1A43',
-      border: '0.2px solid #252262',
-      boxShadow: '0px 0px 60px 0px #635BFF4D',
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
     spotlight: '/assets/spotlight5.png',
     tags: [
@@ -234,16 +167,24 @@ export const myProjects = [
       },
       {
         id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
+        name: 'Node.js',
+        path: '/assets/nodejs.png',
       },
       {
         id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
+        name: 'express.js',
+        path: '/assets/express.png',
+      },
+      {
+        id: 5,
+        name: 'mongodb.png',
+        path: '/assets/mongodb.png',
       },
     ],
   },
+ 
+
+ 
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -260,29 +201,13 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Tekisky pvt ltd',
+    pos: 'full-stack web developer',
+    duration: '2021 - Present',
+    title: "Tekisky is my go-to playground for crafting interactive prototypes — turning static designs into immersive experiences that stakeholders can click through, feel, and believe in before a single line of code is written.",
+    icon: '/assets/tekisky-logo.png',
     animation: 'victory',
   },
-  {
-    id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
-    animation: 'clapping',
-  },
-  {
-    id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
-    animation: 'salute',
-  },
+
+ 
 ];
